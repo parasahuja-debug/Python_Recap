@@ -1,28 +1,28 @@
-class Solution:
-    def isValid(self, s: str) -> bool:
-        # previous=-1
-        # while previous!=len(s):
-        #     previous=len(s)
-        #     s=s.replace("()","").replace("[]","").replace("{}","")
+# class Solution:
+#     def isValid(self, s: str) -> bool:
+#         # previous=-1
+#         # while previous!=len(s):
+#         #     previous=len(s)
+#         #     s=s.replace("()","").replace("[]","").replace("{}","")
         
-        # if s=="":
-        #     return True
-        # else:
-        #     return False
+#         # if s=="":
+#         #     return True
+#         # else:
+#         #     return False
     
-        store=[]
-        arra={')':'(','}':'{',']':'['}
-        for i in s:
-            if i in arra:#closing brackets found
-                print("enter if")
-                top=store.pop() if store else "#"
-                print(top)
-                if top!=arra[i]:
-                    return False
-            else:#store value
-                print("enter else")
-                store.append(i)
-        return not store
+#         store=[]
+#         arra={')':'(','}':'{',']':'['}
+#         for i in s:
+#             if i in arra:#closing brackets found
+#                 print("enter if")
+#                 top=store.pop() if store else "#"
+#                 print(top)
+#                 if top!=arra[i]:
+#                     return False
+#             else:#store value
+#                 print("enter else")
+#                 store.append(i)
+#         return not store
              
 
 
