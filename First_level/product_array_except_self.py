@@ -51,6 +51,8 @@ def product_except_self(nums):
         #now we are updating suffix value to get the next element in next iteration
     
     return result
+
 print(product_except_self([1,2,3,4]))
+
 
 
