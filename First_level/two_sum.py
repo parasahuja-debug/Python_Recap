@@ -15,13 +15,14 @@
 class Solution:
     def twoSum(self,nums,target):
         left=0
-        hash_store={}
+        hash_store={}#store the position of the number
         
         for right,value in enumerate(nums):
-            target_exp=target-value
-            if target_exp in hash_store:
+            target_exp=target-value#what number i need to look for
+            if target_exp in hash_store:#found the number i have been looking for 
+                #in the hash i maitaned of the traverse numbers
                 return [hash_store[target_exp],right]
-            hash_store[value]=right
+            hash_store[value]=right#store the position(right) of the value in hash
         return -1
 
 sol=Solution() #object
