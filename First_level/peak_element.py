@@ -25,12 +25,13 @@ class Solution:
         right=len(nums)-1 #rightmost element
         while left <right:
             mid=(left+right)//2 #mid is middle, if 10.5 or 12.5 it will be 10 & 12
-            print(mid,nums[mid])
+            #print(mid,nums[mid])
             if nums[mid]<nums[mid+1]:#if mid+1 is smaller,expand left
+                #this is peak element so always try to move up and compare with upper one
                 left=mid+1
             else:#mid is greater,squeeze right
                 right=mid
-        return left
+        return left #loop would only end when left ==right, anything can be returned
 
 sol=Solution()
 print(sol.findPeakElement([1,2,1,3,5,6,4]))
