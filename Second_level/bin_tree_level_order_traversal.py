@@ -43,6 +43,15 @@
 
 # print(levelOrder(root))
 
+#Input: root = [3,9,20,null,null,15,7]
+#Output: [[3],[9,20],[15,7]]
+#Every level should come in the seperate vector BFS
+    #     3
+    #    / \
+    #   9   20
+    #      /  \
+    #     15   7
+
 from collections import deque
 class TreeNode:
     def __init__(self, val):

@@ -9,3 +9,6 @@ Third Level - Climbing Stairs Maximum Subarray (Kadane's Algorithm) Best Time to
 
 -----
 Fourth Level -  Valid Anagram, Group Anagrams, First Unique Character in String
+
+----
+Fifth Level -  Merge Intervals, 3Sum / 4Sum, Longest Palindromic Substring, Minimum Window Substring, Spiral Matrix , Container With Most Water, String to Integer (atoi)
