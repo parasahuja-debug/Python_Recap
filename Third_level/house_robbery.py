@@ -1,3 +1,5 @@
+# In House Robber, you need to calculate:
+# The maximum amount of money you can rob without robbing two adjacent houses.
 class Solution:
     def rob(self, nums) -> int:
         #initialise which is the second point of dp

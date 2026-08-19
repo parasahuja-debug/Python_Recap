@@ -1,3 +1,5 @@
+#How many distinct ways can you reach the top of n stairs 
+# if you can climb either 1 step or 2 steps at a time?
 class Solution:
     def climbStairs(self, n: int) -> int:
         #tabulization solution
