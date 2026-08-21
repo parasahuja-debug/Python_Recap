@@ -12,3 +12,7 @@ Fourth Level -  Valid Anagram, Group Anagrams, First Unique Character in String
 
 ----
 Fifth Level -  Merge Intervals, 3Sum / 4Sum, Longest Palindromic Substring, Minimum Window Substring, Spiral Matrix , Container With Most Water, String to Integer (atoi)
+
+-----
+Sixth level - 
+Binary Tree Maximum Path Sum, Serialize and Deserialize Binary Tree, Word Ladder, Course Schedule — Topological Sort, Binary Tree Right Side View, Diameter of Binary Tree, Path Sum variations — this is a family of related problems, not just one problem.
