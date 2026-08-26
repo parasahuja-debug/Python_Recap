@@ -2,7 +2,7 @@
 # Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], 
 # word = "ABCCED"
 
-# O(m × n × 3^L)
+# O(m × n × 3^L) some say 4^L because 4 branches are traced eventually
 #3 direction for each word and 
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
