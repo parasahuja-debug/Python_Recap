@@ -27,7 +27,7 @@ class Trie:
                 node.children[ch] = TrieNode()#traverse through the root
                 #this case is applicable if there are same starting point and 
                 #two words exists
-            node = node.children[ch]#create a dict
+            node = node.children[ch]#now the node is child
         node.is_end = True#after the whole word is traced set is_end
 
 def longestWord(words):
@@ -47,7 +47,7 @@ def longestWord(words):
             best = path
 
         for ch in sorted(node.children):          # sorted → lexicographically smaller explored first
-            child = node.children[ch]#for every child of tree lexicographically
+            child = node.children[ch]#for every child "node"of tree lexicographically
             if child.is_end:#if first character is also the end, meaning
                 #prefix is there in word, call again
                 # prune: only continue if this prefix is itself a word
