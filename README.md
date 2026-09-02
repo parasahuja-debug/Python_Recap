@@ -24,3 +24,9 @@ LRU Cache , Min Stack, Reverse of Linked list , Detect a cycle , detect the star
 -------
 Eight level - 
 Design Add and Search Words Data Structure, Implement Trie (Prefix Tree),Design Twitter
+
+--------
+Ninth Level -
+N queens, sudoku solver, knights tour, subsets II, mcolouring problem, count onversions
+
+-------
