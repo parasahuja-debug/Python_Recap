@@ -18,7 +18,7 @@ class Trie:
     def search(self, word: str) -> bool:
         node = self.root#create a node
         for ch in word:
-            if ch not in node.children[ch]:
+            if ch not in node.children:
                 return False
             node=node.children[ch]
         return node.is_end #word exists if node.is_end true
@@ -29,7 +29,7 @@ class Trie:
     def startsWith(self, prefix: str) -> bool:
         node=self.root
         for ch in prefix:
-            if ch not in node.children[ch]:
+            if ch not in node.children:
                 return False
             node=node.children[ch]
         return True #prefix exists

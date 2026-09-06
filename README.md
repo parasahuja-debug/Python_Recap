@@ -31,4 +31,14 @@ N queens, sudoku solver, knights tour, subsets II, mcolouring problem, count onv
 
 -------
 Tenth level - 
-Fractional Knapsack, 
+Fractional Knapsack, activity sel, cookie select
+
+----
+Eleventh level - 
+cycle detection in directed graph, cycle detection in undirected graph, next greater element, topological sort
+
+------
+Twelfth level - 
+knapsack 0-1 , knapsack unbounded, longest common subsequence, unique binary search tree
+
+--------
