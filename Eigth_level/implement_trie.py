@@ -1,3 +1,12 @@
+# Implement Trie (Prefix Tree)
+
+# Design a trie with:
+
+# insert(word) — inserts a string into the trie
+# search(word) — returns True if the exact word exists in the trie
+# startsWith(prefix) — returns True if any word in the 
+# trie starts with the given prefix
+
 class TrieNode:
     def __init__(self):
         self.children = {}      # char -> TrieNode #child of root

@@ -45,5 +45,18 @@ def knapsack(wt,val,W,n):
 
     return answer
 
+# def main(weight, value, max_value):
+#     n = len(weight)
+#     def fun(calculate, calculates_val, valtoselect):
+#         if valtoselect == n:
+#             return calculates_val
+#         if calculate + weight[valtoselect] <= max_value:
+#             choose = fun(calculate + weight[valtoselect], calculates_val + value[valtoselect], valtoselect + 1)
+#         else:
+#             choose = float('-inf')
+#         ignore = fun(calculate, calculates_val, valtoselect + 1)
+#         return max(choose, ignore)
+#     return fun(0, 0, 0)
+
 
 

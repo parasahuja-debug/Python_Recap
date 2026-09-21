@@ -16,7 +16,7 @@ class Solution:
             #then false else true
             return False 
         else:
-            return True
+            return True)
 
 sol=Solution()
 print(sol.isAnagram(s = "anagram", t = "nagaram"))

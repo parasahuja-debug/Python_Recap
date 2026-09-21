@@ -2,7 +2,7 @@ class Solution:
     def maxArea(self, height) -> int:
         if len(height)<1:
             return 0
-        max_area=float("-inf")
+        max_area=0
         left=0
         right=len(height)-1
         while left<right:

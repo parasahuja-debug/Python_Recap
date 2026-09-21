@@ -44,30 +44,30 @@ class Solution:
         #         if strs[left][j]==strs[i][j]
 
 
-longest common prefix
+# longest common prefix
 
 
 
-def lon(strs):
-    longest_com=""
-    prefix=""
-    def rec(index,strs):
-        nonlocal longest_com
-        nonlocal prefix
-        for word in strs:
-            if index==len(word):
-                return longest_com
-            for index1 in range(len(word)):
-                if len(prefix)==index:
-                    prefix+=word[index1]
-                if prefix==word[index1]:
-                    break
-                else:
-                    return longest_com
-        longest_com+=prefix
-        rec(index+1,strs)
-        return longest_com
-    return rec(0,strs)
+# def lon(strs):
+#     longest_com=""
+#     prefix=""
+#     def rec(index,strs):
+#         nonlocal longest_com
+#         nonlocal prefix
+#         for word in strs:
+#             if index==len(word):
+#                 return longest_com
+#             # for index1 in range(len(word)):
+#             if len(prefix)==index:
+#                 prefix+=word[index]
+#             if prefix[index]==word[index]:
+#                 continue
+#             else:
+#                 return longest_com
+#         longest_com=prefix
+#         rec(index+1,strs)
+#         return longest_com
+#     return rec(0,strs)
 
 
 
